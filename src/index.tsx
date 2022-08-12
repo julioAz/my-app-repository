@@ -2,14 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Repository from './Exemples/Repositories/Repository';
+import Repository from './Examples/Repositories/Repository';
+import Pokedex from './Examples/Pokedex/Pokedex';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Repository />
+    <Pokedex/>
   </React.StrictMode>
 );
 

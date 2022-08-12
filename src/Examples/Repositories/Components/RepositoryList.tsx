@@ -11,8 +11,6 @@ function RepositoryList (){
         ));
     } , []);
 
-    console.log(repositories)
-
     return (
         <ul>
             {repositories.map(repository => (
